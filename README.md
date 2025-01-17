@@ -54,13 +54,6 @@ Welcome to the **Online Bookstore Website**! This web application allows users t
 
 ---
 
-## 🚀 Future Enhancements  
-🔮 Possible upgrades include:  
-- 🌐 A responsive web design for better mobile compatibility.  
-- 🛍️ Support for multiple sellers.  
-- 📊 Admin panel for managing books and orders.  
-
----
 
 ## 🤝 Contributions  
 Contributions are welcome! Feel free to fork this repository, create new features, or submit bug fixes.  
