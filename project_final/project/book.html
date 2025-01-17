@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Book</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+<header>
+    <nav>
+        <div class="navbar">
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="#">Contact</a>
+                <a href="admin.html">Admin</a>
+            </div>
+            <div class="auth-links">
+                <p>Hello dear </p>
+            </div>
+        </div>
+    </nav>
+</header>
+<main>
+    <!--     <section class="bookstore-image">
+             <img src="book.jpg" alt="Bookstore Image">
+         </section>-->
+    <div class="slideshow-container">
+        <img id="slideshow" src="img/banner1.jpg" alt="Image 1">
+    </div>
+
+
+
+    <!-- First Row of Books -->
+    <section class="book-section">
+        <h2>Novels</h2>
+        <div class="book-display">
+            <div class="book-item">
+                <img src="img/garden.jpeg" alt="Book 1">
+                <p>The Garden of Heaven</p>
+                <div class="price">
+                    <p><del>LKR 2450.00</del></p>
+                    <p>LKR 2200.00</p>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+            <div class="book-item">
+                <img src="img/madol.jpeg" alt="Book 2">
+                <br>
+                <p>Madol duwa</p>
+                <div class="price">
+                    <p><del>LKR 475.00</del></p>
+                    <p>LKR 425.00</p>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+            <div class="book-item">
+                <img src="img/chemist.jpeg" alt="Book 3">
+                <p>The Alchemist</p>
+                <div class="price">
+                    <p><del>LKR 1940.00</del></p>
+                    <p>LKR 1746.00</p>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+            <div class="book-item">
+                <img src="img/balance.jpeg" alt="Book 4">
+                <p>A Fine Balance</p>
+                <div class="price">
+                    <p><del>LKR 2999.00</del></p>
+                    <p>LKR 2699.00</p>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Second Row of Books -->
+    <section class="book-section">
+        <h2>Fiction</h2>
+        <div class="book-display">
+            <div class="book-item">
+                <img src="img/Sathya_1.jpeg" alt="Book 5">
+                <p>Sathya Gaweshaka Book I Part 01</p>
+                <div class="price">
+                    <p><del>LKR 1990.00</del></p>
+                    <p>LKR 1700.00</p>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+            <div class="book-item">
+                <img src="img/sathya_2.jpeg" alt="Book 6">
+                <p>Sathya Gaweshaka Book I Part 02</p>
+                <div class="price">
+                    <p><del>LKR 1950.00</del></p>
+                    <p>LKR 1560.00</p>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+            <div class="book-item">
+                <img src="img/sathya_3.jpeg" alt="Book 7">
+                <p>Sathya Gaweshaka Book I Part 03</p>
+                <div class="price">
+                    <p><del>LKR 1950.00</del></p>
+                    <p>LKR 1560.00</p>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+            <div class="book-item">
+                <img src="img/mortal.jpeg" alt="Book 8">
+                <p>Bhashma Nagaraya</p>
+                <div class="price">
+                    <p><del>LKR 2250.00</del></p>
+                    <p>LKR 1800.00</p>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </section>
+    <section class="book-section">
+        <h2>Education</h2>
+        <div class="book-display">
+            <div class="book-item">
+                <img src="img/chem1.jpeg" alt="Book 9">
+                <p>Theory of Electrochemistry</p>
+                <div class="price">
+                    <p><del>LKR 1330.00</del></p>
+                    <p>LKR 1130.00</p>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+            <div class="book-item">
+                <img src="img/math1.jpeg" alt="Book 10">
+                <p>Mathematics Grade 5</p>
+                <div class="price">
+                    <p><del>LKR 1200.00</del></p>
+                    <p>LKR 1050.00</p>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+            <div class="book-item">
+                <img src="img/sin1.jpeg" alt="Book 11">
+                <p>Sinhala Literature Grade 9</p>
+                <div class="price">
+                    <p><del>LKR 1050.00</del></p>
+                    <p>LKR 890.00</p>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+            <div class="book-item">
+                <img src="img/bio1.jpeg" alt="Book 12">
+                <p>Biology Model Papers</p>
+                <div class="price">
+                    <p><del>LKR 1150.00</del></p>
+                    <p>LKR 950.00</p>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </section>
+    <section class="bookstore-image">
+        <img src="img/detail.jpg" alt="Bookstore Image">
+    </section>
+    <div id="cart-container">
+        <a href="cart.html">
+        <img src="img/cart.png" alt="Cart" id="cart-icon" >
+        <span id="cart-count">0</span>
+        </a>
+    </div>
+    <!-- Add more rows of books as needed -->
+</main>
+<footer>
+    <p>&copy; <i>THE BOOK.</i> All Rights Reserved.</p>
+</footer>
+<script src="book.js"></script>
+
+</body>
+</html>

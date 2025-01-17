@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .cart-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+        }
+
+        .cart-item img {
+            width: 100px;
+            height: auto;
+            border-radius: 5px;
+            margin-right: 20px;
+        }
+
+        .cart-item .item-details {
+            flex: 1;
+        }
+
+        .cart-item .item-details h3 {
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+
+        .cart-item .item-details p {
+            font-size: 16px;
+            color: #555;
+        }
+
+        .cart-item .item-price {
+            font-size: 18px;
+            color: #27ae60;
+        }
+
+        .total-price {
+            font-size: 20px;
+            font-weight: 500;
+            text-align: right;
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+
+        .checkout-btn {
+            display: block;
+            width: 100%;
+            padding: 15px;
+            font-size: 18px;
+            font-weight: 500;
+            color: white;
+            background-color: #2980b9;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .checkout-btn:hover {
+            background-color: #1a6fa5;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Your Cart</h1>
+            <div class="cart-item">
+                <img src="img/madol.jpeg" alt="Book 1">
+                <div class="item-details">
+                    <h3>Book Title 1</h3>
+                    <p>Quantity: 1</p>
+                </div>
+                <div class="item-price">$10.00</div>
+            </div>
+            <div id="main-cart"></div>
+
+        <!-- Repeat for each item in the cart -->
+
+        <div class="total-price">Total: $10.00</div>
+        <a href="#" class="checkout-btn">Proceed to Checkout</a>
+    </div>
+    <script src="book.js"></script>
+</body>
+</html>

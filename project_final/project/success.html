@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Successful</title>
+    <script>
+        // Function to handle the redirection after a delay
+        function redirectAfterDelay(url, delay) {
+            setTimeout(function() {
+                window.location.href = url;
+            }, delay);
+        }
+
+        // Redirect to the login page after 3 minutes (180,000 milliseconds)
+        window.onload = function() {
+            redirectAfterDelay('book.html', 600);
+        };
+    </script>
+</head>
+<body>
+<h1>Login Successful!</h1>
+<p>You will be redirected to the login page shortly...</p>
+</body>
+</html>

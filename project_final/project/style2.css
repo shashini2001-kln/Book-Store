@@ -1,0 +1,102 @@
+body {
+    background-image: url("img/bg.webp");
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #826e6e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.auth-container {
+    /* background-color: rgba(73, 240, 168, 0.35); */
+    background-color: #00000079;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.auth-container h2 {
+    margin: 0 0 20px;
+    font-size: 2em;
+    color: #FFFFFF;
+    text-align: center;
+    text-shadow: #ffffff;
+}
+.auth-container form {
+    margin-bottom: 20px;
+    /* align-items: center;
+    text-align: center; */
+}
+.auth-container input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    color: #320202a9;
+}
+.auth-container input[type="submit"] {
+    background-color: #b80e16d2;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    padding: 15px;
+    font-size: 1.2em;
+    transition: background-color 0.3s;
+    width: 200px;
+    border-radius: 30px;
+}
+.auth-container input[type="submit"]:hover {
+    background-color: #06e8f4d2;
+}
+.auth-container a {
+    color: #00ffa6;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+.auth-container a:hover {
+    text-decoration: underline;
+}
+.auth-container .switch-link {
+    display: block;
+    text-align: center;
+    margin-top: 10px;}
+
+.error {
+    color: rgb(0, 255, 242);
+    font-size: 13px;
+    height: 15px;
+    font-weight: bolder;
+    background-color: #ffffff00;
+}
+.admin-link{
+    float: right;
+    padding: 16px;
+    margin-top: 10px;
+    font-size: 1.2em;
+    width: 160px;
+    height: 20px;
+    border-radius:30px;
+    background-color:#b80e16d2;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    position: relative;
+    top: 7em;
+    right: 5em;
+    transition: background-color 0.3s;
+}
+.admin-link:hover{
+    background-color: #06e8f4d2;
+}
+.admin-cont{
+    position: relative;
+    left: 7em;
+}
+.selecting{
+    padding: 5px;
+}

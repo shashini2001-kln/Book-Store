@@ -1,0 +1,60 @@
+body {
+    background-image: url("img/bg.webp");
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    align-items:center ;    
+}
+
+header {
+    background-image: url("img/bg.webp");
+    background-color:rgba(173, 183, 176, 0.693);
+    background-blend-mode: color-burn;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 0.5rem 0;
+}
+
+form input, form select, form button {
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+}
+
+#book-list, #admin-book-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.book {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin: 1rem;
+    flex: 1 0 21%;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+.bg1{
+    background-image: url("img/bg.webp");
+   
+}

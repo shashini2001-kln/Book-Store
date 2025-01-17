@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+        <div class="auth-container">
+            <h2 id="form-title">User Login</h2>
+    
+            <!-- Login Form -->
+            <form id="login-form" action="login.php" method="post">
+                <input type="text" name="username" placeholder="Username" required>
+                <input type="password" name="password" placeholder="Password" required>
+                <p> <label for="role" style="color: white">You are :</label>
+                    <select class="selecting" id="role" name="role">
+                        <option class="selecting" value="user">User</option>
+                    </select>
+                </p>
+
+                <input type="submit" value="Login">
+            </form>
+    
+            <!-- Registration Form -->
+            <form id="register-form" style="display: none;" action="register.php" method="post">
+                <input type="text" name="name" id="name" placeholder="Name" required>
+                <span class="error" id="nameError"></span>
+                <input type="text" name="username" id="username" placeholder="Username" required>
+                <span id="u_nameError" class="error"></span>
+                <input type="text" name="mobile_num" id="mobile_num" placeholder="Mobile Number : +94XXXXXXXXX" required>
+                 <span id="m_numberError" class="error"></span>
+                <input type="text" name="email" id="email" placeholder="Email" required>
+                <span class="error" id="emailError"></span>
+                <input type="password" name="password" id="password" placeholder="Password" required>
+                <span class="error" id="passwordError"></span>
+                <input type="password" name="confirm-password" id="confirmPassword" placeholder="Confirm Password" required>
+                <span class="error" id="confirmPasswordError"></span>
+                <p></p>
+                <input type="submit" value="Register" style="float:left;">
+            </form>
+    
+            <a href="index.html" class="switch-link">Back to Home</a>
+            <a href="#" class="switch-link" id="switch-to-register">Don't have an account? Register</a>
+            <a href="#" class="switch-link" id="switch-to-login" style="display: none;">Already have an account? Login</a>
+        </div>
+    <script src="script2.js"></script>
+</body>
+</html>

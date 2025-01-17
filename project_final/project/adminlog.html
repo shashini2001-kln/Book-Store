@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="auth-container admin-cont">
+    <h2 id="form-title">Admin</h2>
+
+    <!-- Login Form -->
+    <form id="login-form" onsubmit="login()" action="login.php" method="post">
+        <input type="text" name="username" placeholder="Username" required>
+        <input type="text" name="adminid" placeholder="AdminId" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <p> <label for="role" style="color: white">You are :</label>
+            <select class="selecting" id="role" name="role">
+                <option class="selecting" value="admin">Admin</option>
+            </select>
+        </p>
+        <input type="submit" value="Login">
+
+    </form>
+</div>
+<a href="index.html" class="admin-link" id="switch-to-login">Back to Home</a>
+</body>
+</html>
